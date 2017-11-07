@@ -1,0 +1,24 @@
+{
+  "name": "athene-react-components",
+  "version": "1.0.0",
+  "description": "The athene-react-components is implement react components with popular frontend framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhaochf/athene-react-components.git"
+  },
+  "keywords": [
+    "react",
+    "bootstrap",
+    "adminlte"
+  ],
+  "author": "zhaochf@aliyun.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaochf/athene-react-components/issues"
+  },
+  "homepage": "https://github.com/zhaochf/athene-react-components#readme"
+}
