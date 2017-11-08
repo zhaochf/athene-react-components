@@ -4,12 +4,13 @@
   "description": "The athene-react-components is implement react components with popular frontend framework.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/zhaochf/athene-react-components.git"
   },
+  "homepage": "https://github.com/zhaochf/athene-react-components#readme",
   "keywords": [
     "react",
     "bootstrap",
@@ -20,5 +21,26 @@
   "bugs": {
     "url": "https://github.com/zhaochf/athene-react-components/issues"
   },
-  "homepage": "https://github.com/zhaochf/athene-react-components#readme"
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-istanbul": "^4.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-standalone": "^6.26.0",
+    "brfs": "^1.4.3",
+    "chai": "^4.1.2",
+    "child-process-promise": "^2.2.1",
+    "eslint": "^4.10.0",
+    "webpack": "^3.8.1"
+  }
 }
