@@ -1,0 +1,24 @@
+{
+  "presets": [
+    ["env", {
+      "loose": true,
+      "targets": {
+        "ie": 9
+      }
+    }],
+    "react"
+  ],
+  "plugins": [
+    "add-module-exports",
+    "dev-expression",
+    "transform-class-properties",
+    "transform-export-extensions",
+    "transform-object-rest-spread",
+    "transform-runtime"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["istanbul"]
+    }
+  }
+}
